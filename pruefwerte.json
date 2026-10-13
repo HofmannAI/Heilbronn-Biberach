@@ -509,8 +509,17 @@
       "name": "WA14_EG_Oeffnung_01",
       "edge": 0,
       "width_m": 1.251532867092556,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Eingang/Tür bodentief in Nordansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510378.8816419098,
@@ -530,6 +539,15 @@
       "width_m": 0.7415338504367401,
       "sill_assumed_m": 0.9,
       "head_assumed_m": 2.25,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.25,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Keine eindeutige Entsprechung in älterer Nordansicht; Öffnung des neueren EG-Grundrisses und bisherige vertikale Annahme erhalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510380.4290468378,
@@ -547,8 +565,17 @@
       "name": "WA14_EG_Oeffnung_03",
       "edge": 0,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 1.2,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 1.2,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Hochliegendes kleines Fenster in Nordansicht; grafisch abgeleitet.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510383.9697771451,
@@ -566,8 +593,17 @@
       "name": "WA14_EG_Oeffnung_04",
       "edge": 2,
       "width_m": 0.9915325873480899,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510387.1946824981,
@@ -586,7 +622,16 @@
       "edge": 2,
       "width_m": 1.2515339436848953,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Eingang/Tür bodentief in Nordansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510389.9567172241,
@@ -604,8 +649,17 @@
       "name": "WA14_EG_Oeffnung_06",
       "edge": 4,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510391.6602160757,
@@ -623,8 +677,17 @@
       "name": "WA14_EG_Oeffnung_07",
       "edge": 4,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510393.4405645979,
@@ -642,8 +705,17 @@
       "name": "WA14_EG_Oeffnung_08",
       "edge": 4,
       "width_m": 1.09153509657118,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510394.98796880944,
@@ -661,8 +733,17 @@
       "name": "WA14_EG_Oeffnung_09",
       "edge": 5,
       "width_m": 0.7415349270290795,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510399.4721583593,
@@ -680,8 +761,17 @@
       "name": "WA14_EG_Oeffnung_10",
       "edge": 5,
       "width_m": 0.7415349270290795,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510401.330575375,
@@ -699,8 +789,17 @@
       "name": "WA14_EG_Oeffnung_11",
       "edge": 5,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510402.90892637224,
@@ -718,8 +817,17 @@
       "name": "WA14_EG_Oeffnung_12",
       "edge": 5,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510404.10309155576,
@@ -738,7 +846,16 @@
       "edge": 6,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510405.00706788973,
@@ -756,8 +873,17 @@
       "name": "WA14_EG_Oeffnung_14",
       "edge": 8,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510402.5287082756,
@@ -776,7 +902,16 @@
       "edge": 10,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510400.1520130028,
@@ -794,8 +929,17 @@
       "name": "WA14_EG_Oeffnung_16",
       "edge": 12,
       "width_m": 1.09153509657118,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510397.0878318896,
@@ -813,8 +957,17 @@
       "name": "WA14_EG_Oeffnung_17",
       "edge": 12,
       "width_m": 1.0915340199788408,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510395.2242895849,
@@ -832,8 +985,17 @@
       "name": "WA14_EG_Oeffnung_18",
       "edge": 12,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510392.9614168375,
@@ -852,7 +1014,16 @@
       "edge": 14,
       "width_m": 2.991532171969943,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510389.58274419745,
@@ -870,8 +1041,17 @@
       "name": "WA14_EG_Oeffnung_20",
       "edge": 15,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510386.01154457015,
@@ -889,8 +1069,17 @@
       "name": "WA14_EG_Oeffnung_21",
       "edge": 15,
       "width_m": 1.09153509657118,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510384.8173809937,
@@ -908,8 +1097,17 @@
       "name": "WA14_EG_Oeffnung_22",
       "edge": 15,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510383.62321581016,
@@ -927,8 +1125,17 @@
       "name": "WA14_EG_Oeffnung_23",
       "edge": 17,
       "width_m": 1.9915318413628469,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Breite bodentiefe Öffnung Westansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510382.8668790865,
@@ -946,8 +1153,17 @@
       "name": "WA14_OG_Oeffnung_01",
       "edge": 0,
       "width_m": 1.0915340199788408,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510377.690305683,
@@ -965,8 +1181,17 @@
       "name": "WA14_OG_Oeffnung_02",
       "edge": 0,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510379.6803027951,
@@ -984,8 +1209,17 @@
       "name": "WA14_OG_Oeffnung_03",
       "edge": 0,
       "width_m": 0.7415338504367401,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510380.42904683773,
@@ -1003,8 +1237,17 @@
       "name": "WA14_OG_Oeffnung_04",
       "edge": 0,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510382.3059000617,
@@ -1022,8 +1265,17 @@
       "name": "WA14_OG_Oeffnung_05",
       "edge": 0,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510383.85330570623,
@@ -1041,8 +1293,17 @@
       "name": "WA14_OG_Oeffnung_06",
       "edge": 2,
       "width_m": 0.9915347405327687,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510387.1946817815,
@@ -1060,8 +1321,17 @@
       "name": "WA14_OG_Oeffnung_07",
       "edge": 2,
       "width_m": 0.6915336724175344,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 1.2,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 1.2,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Hochliegendes kleines Fenster in Nordansicht; grafisch abgeleitet.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510390.1430722427,
@@ -1079,8 +1349,17 @@
       "name": "WA14_OG_Oeffnung_08",
       "edge": 4,
       "width_m": 1.09153509657118,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510391.6602153592,
@@ -1098,8 +1377,17 @@
       "name": "WA14_OG_Oeffnung_09",
       "edge": 4,
       "width_m": 0.7415349270290875,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510393.44056388136,
@@ -1117,8 +1405,17 @@
       "name": "WA14_OG_Oeffnung_10",
       "edge": 4,
       "width_m": 1.0915350965711883,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510394.9879695259,
@@ -1136,8 +1433,17 @@
       "name": "WA14_OG_Oeffnung_11",
       "edge": 5,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510399.47215835727,
@@ -1155,8 +1461,17 @@
       "name": "WA14_OG_Oeffnung_12",
       "edge": 5,
       "width_m": 0.7415349270290795,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510400.7708113471,
@@ -1174,8 +1489,17 @@
       "name": "WA14_OG_Oeffnung_13",
       "edge": 5,
       "width_m": 1.0915329433865004,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510402.9089263702,
@@ -1193,8 +1517,17 @@
       "name": "WA14_OG_Oeffnung_14",
       "edge": 5,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510404.1030899467,
@@ -1213,7 +1546,16 @@
       "edge": 6,
       "width_m": 2.9915354017469693,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510405.0070686062,
@@ -1231,8 +1573,17 @@
       "name": "WA14_OG_Oeffnung_16",
       "edge": 8,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510402.52870899206,
@@ -1251,7 +1602,16 @@
       "edge": 10,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510400.1520122862,
@@ -1269,8 +1629,17 @@
       "name": "WA14_OG_Oeffnung_18",
       "edge": 12,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510397.08783117303,
@@ -1288,8 +1657,17 @@
       "name": "WA14_OG_Oeffnung_19",
       "edge": 12,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510395.22428958485,
@@ -1307,8 +1685,17 @@
       "name": "WA14_OG_Oeffnung_20",
       "edge": 12,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510392.961417554,
@@ -1327,7 +1714,16 @@
       "edge": 14,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.3,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510389.58274491393,
@@ -1345,8 +1741,17 @@
       "name": "WA14_OG_Oeffnung_22",
       "edge": 15,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510386.01154296106,
@@ -1364,8 +1769,17 @@
       "name": "WA14_OG_Oeffnung_23",
       "edge": 15,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510384.8173793846,
@@ -1383,8 +1797,17 @@
       "name": "WA14_OG_Oeffnung_24",
       "edge": 15,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510383.6232158081,
@@ -1402,8 +1825,17 @@
       "name": "WA14_OG_Oeffnung_25",
       "edge": 17,
       "width_m": 1.9915339945475257,
-      "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510382.86687908444,
@@ -1421,8 +1853,17 @@
       "name": "WA14_OG_Oeffnung_26",
       "edge": 19,
       "width_m": 1.09153509657118,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510379.57884715963,
@@ -1440,8 +1881,17 @@
       "name": "WA14_OG_Oeffnung_27",
       "edge": 19,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.15,
+      "head_assumed_m": 2.3,
+      "height_source": {
+        "sill_m": 0.15,
+        "head_m": 2.3,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510378.3846819761,
@@ -1459,8 +1909,17 @@
       "name": "WA14_PH_Oeffnung_01",
       "edge": 0,
       "width_m": 0.7415338504367401,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510379.6803318221,
@@ -1478,8 +1937,17 @@
       "name": "WA14_PH_Oeffnung_02",
       "edge": 0,
       "width_m": 0.7415349270290795,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510381.1412154169,
@@ -1497,8 +1965,17 @@
       "name": "WA14_PH_Oeffnung_03",
       "edge": 0,
       "width_m": 0.7415327738444006,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 1.5,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 1.5,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Kurzes Fenster in Nordansicht; grafisch abgeleitet.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510382.55551186926,
@@ -1516,8 +1993,17 @@
       "name": "WA14_PH_Oeffnung_04",
       "edge": 0,
       "width_m": 1.0915329433865013,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510383.8533354497,
@@ -1535,8 +2021,17 @@
       "name": "WA14_PH_Oeffnung_05",
       "edge": 2,
       "width_m": 0.9915325873480899,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510387.1945798767,
@@ -1554,8 +2049,17 @@
       "name": "WA14_PH_Oeffnung_06",
       "edge": 2,
       "width_m": 0.6915336724175344,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 1.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 1.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Hochliegendes Badfenster in Nordansicht; grafisch abgeleitet.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510390.1429703379,
@@ -1573,8 +2077,17 @@
       "name": "WA14_PH_Oeffnung_07",
       "edge": 4,
       "width_m": 1.091535096571184,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510391.66024510266,
@@ -1592,8 +2105,17 @@
       "name": "WA14_PH_Oeffnung_08",
       "edge": 4,
       "width_m": 0.7415349270290875,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510393.44059362484,
@@ -1611,8 +2133,17 @@
       "name": "WA14_PH_Oeffnung_09",
       "edge": 4,
       "width_m": 1.0915307902018305,
-      "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "sill_assumed_m": 0.2,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.2,
+        "head_m": 2.4,
+        "view": "Nord",
+        "source": "quellen/ansichten_WA14/Nord.pdf",
+        "date": "28.08.2026",
+        "note": "Fensterunter- und Oberkante grafisch aus Ansicht 1:100; auf 5 cm gerundet, keine bemaßte Ausführungsangabe.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510394.9879992694,
@@ -1631,7 +2162,16 @@
       "edge": 5,
       "width_m": 0.7415327738444006,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510399.4721749117,
@@ -1650,7 +2190,16 @@
       "edge": 5,
       "width_m": 0.7415327738444006,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510400.77082790155,
@@ -1669,7 +2218,16 @@
       "edge": 5,
       "width_m": 1.0915329433865004,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Ost",
+        "source": "quellen/ansichten_WA14/Ost.pdf",
+        "date": "28.08.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510402.9089429246,
@@ -1688,7 +2246,16 @@
       "edge": 6,
       "width_m": 2.9915354017469693,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510403.8158128443,
@@ -1707,7 +2274,16 @@
       "edge": 8,
       "width_m": 1.0915329433865013,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510400.3804373349,
@@ -1726,7 +2302,16 @@
       "edge": 8,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510398.88627536723,
@@ -1745,7 +2330,16 @@
       "edge": 8,
       "width_m": 1.0915329433865013,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510396.10094492044,
@@ -1764,7 +2358,16 @@
       "edge": 10,
       "width_m": 1.0915329433865013,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510393.19029437174,
@@ -1783,7 +2386,16 @@
       "edge": 10,
       "width_m": 1.0915329433865013,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510390.8675221296,
@@ -1802,7 +2414,16 @@
       "edge": 10,
       "width_m": 2.9915332485622823,
       "sill_assumed_m": 0,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0,
+        "head_m": 2.4,
+        "view": "Sued",
+        "source": "quellen/ansichten_WA14/Sued.pdf",
+        "date": "31.07.2026",
+        "note": "Balkon-/Terrassenzugang bodentief; Oberkante aus Ansicht.",
+        "uncertain_lower_edge": false
+      },
       "ends_EN": [
         [
           510389.1370897336,
@@ -1821,7 +2442,16 @@
       "edge": 11,
       "width_m": 1.0915329433865013,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510385.4180442055,
@@ -1840,7 +2470,16 @@
       "edge": 11,
       "width_m": 1.09153509657118,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510384.3246385072,
@@ -1859,7 +2498,16 @@
       "edge": 11,
       "width_m": 0.6915315192328555,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510381.1870859414,
@@ -1878,7 +2526,16 @@
       "edge": 11,
       "width_m": 0.6915336724175344,
       "sill_assumed_m": 0.9,
-      "head_assumed_m": 2.25,
+      "head_assumed_m": 2.4,
+      "height_source": {
+        "sill_m": 0.9,
+        "head_m": 2.4,
+        "view": "West",
+        "source": "quellen/ansichten_WA14/West.pdf",
+        "date": "31.07.2026",
+        "note": "Oberkante aus Ansicht; Unterkante teilweise durch Terrassenbrüstung verdeckt, bisherige Unterkante vorläufig beibehalten.",
+        "uncertain_lower_edge": true
+      },
       "ends_EN": [
         [
           510380.39222073543,
@@ -1898,6 +2555,9 @@
       "width_m": 1.5169444447557316,
       "sill_assumed_m": 0,
       "head_assumed_m": 2.25,
+      "height_source": {
+        "note": "bisherige Annahme"
+      },
       "ends_EN": [
         [
           510369.9548930844,
@@ -1913,9 +2573,9 @@
   "retained_citygml_buildings": 93,
   "removed_count": 9,
   "survey_points": 291,
-  "export_bytes": 3051216,
+  "export_bytes": 3111112,
   "mesh_count": 518,
-  "triangles": 110851,
+  "triangles": 113971,
   "scene_count": 1,
   "default_scene": 0,
   "bounds": [

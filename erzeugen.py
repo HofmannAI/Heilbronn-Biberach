@@ -50,6 +50,7 @@ def combine(ms):return trimesh.util.concatenate([m for m in ms if m is not None]
 def tube(a,b,r=.018):
  aa=local([a,b]);return trimesh.creation.cylinder(radius=r,segment=aa,sections=8)
 
+elevation_windows=read('WA14_fensterhoehen_ansichten.json')
 conf=read('gebaeude_parameter.json');site={k:Polygon(v) for k,v in read('lageplan.json').items()};plots=unary_union([site['WA12'],site['WA14']]);regs={k:read(c['register']) for k,c in conf.items()}
 def xy(k,s,points):
  r=regs[k];a=r['angle'];R=np.array([[math.cos(a),math.sin(a)],[math.sin(a),-math.cos(a)]])
@@ -196,19 +197,25 @@ for k,c in conf.items():
    # The entrance is actually drawn; remaining exterior windows are not supplied.
    a0,b0=xy(k,sn,[[426.62,542.0],[426.62,585.0]])
    gaps.append((LineString([a0,b0]).buffer(.65,cap_style=2),0,a0,b0,np.linalg.norm(b0-a0),3))
-  walls=[]
-  for z0,z1 in zip([0,SILL,HEAD],[SILL,HEAD,STORY-SLAB]):
-   active=[g[0] for g in gaps if g[1]<=z0+.001];part=shell.difference(unary_union(active)) if active else shell;walls.append(solid(part,h+z0,h+z1))
+  gap_heads=[]
+  for gi,g in enumerate(gaps):
+   spec=elevation_windows.get(f'{parent}_Oeffnung_{gi+1:02d}')
+   if spec:gaps[gi]=(g[0],spec['sill_m'],*g[2:])
+   gap_heads.append(spec['head_m'] if spec else HEAD)
+  walls=[];levels=sorted(set([0,SILL,HEAD,STORY-SLAB]+[g[1] for g in gaps]+gap_heads))
+  for z0,z1 in zip(levels[:-1],levels[1:]):
+   active=[g[0] for g,hh in zip(gaps,gap_heads) if g[1]<=z0+.001 and (k=='WA12' or hh>=z1-.001)];part=shell.difference(unary_union(active)) if active else shell;walls.append(solid(part,h+z0,h+z1))
   add(combine(walls),parent+'_Aussenwaende_mit_Rezessen','Penthaus' if sn=='PH' else 'Putz' if k=='WA14' else 'WA12_Platzhalter',parent,{'source':'Grundriss','window_layout':'planabgeleitet' if k=='WA14' else 'fehlend; geschlossene Platzhalterfassaden'})
   for i,(_,sill,a0,b0,width,edge) in enumerate(gaps):
+   head=gap_heads[i]
    u=(b0-a0)/width;frame=[]
    a1=a0+u*.035;b1=b0-u*.035
-   frame.extend([bar(a1,b1,.10,h+sill,h+sill+.065),bar(a1,b1,.10,h+HEAD-.065,h+HEAD)])
-   for p in [a1,b1]:frame.append(solid(Point(p).buffer(.055,cap_style=3),h+sill,h+HEAD))
-   if width>1.4:frame.append(solid(Point((a1+b1)/2).buffer(.026,cap_style=3),h+sill,h+HEAD))
+   frame.extend([bar(a1,b1,.10,h+sill,h+sill+.065),bar(a1,b1,.10,h+head-.065,h+head)])
+   for p in [a1,b1]:frame.append(solid(Point(p).buffer(.055,cap_style=3),h+sill,h+head))
+   if width>1.4:frame.append(solid(Point((a1+b1)/2).buffer(.026,cap_style=3),h+sill,h+head))
    name=f'{parent}_Oeffnung_{i+1:02d}';add(combine(frame),name+'_Rahmen','Metall',parent)
-   add(bar(a1,b1,.025,h+sill+.06,h+HEAD-.06),name+'_Glas','Glas',parent)
-   audit['window_openings'].append({'building':k,'story':sn,'name':name,'edge':edge,'width_m':width,'sill_assumed_m':sill,'head_assumed_m':HEAD,'ends_EN':[a0.tolist(),b0.tolist()]})
+   add(bar(a1,b1,.025,h+sill+.06,h+head-.06),name+'_Glas','Glas',parent)
+   audit['window_openings'].append({'building':k,'story':sn,'name':name,'edge':edge,'width_m':width,'sill_assumed_m':sill,'head_assumed_m':head,'height_source':elevation_windows.get(name,{'note':'bisherige Annahme'}),'ends_EN':[a0.tolist(),b0.tolist()]})
   # Plan-colored exterior paving areas are filtered against each floor interior.
   terrace=[]
   for p in surfdata[parent]:

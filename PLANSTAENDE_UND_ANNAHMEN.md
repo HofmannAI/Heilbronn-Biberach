@@ -49,7 +49,7 @@ Das Auswahlfenster der Umgebung lautet E 510300–510495 und N 5449020–5449220
 
 Die Außenkonturen wurden geschossweise übertragen. Vertikale Einschnitte sind echte Fassadenrücksprünge mit seitlichen Wänden; Balkonplatten und Geländer sind daran angeschlossen. WA12 enthält die offene EG-Stellplatzzone einschließlich fünf Stützen und seitlicher Wände. Beide Obergeschosse besitzen jeweils vier Balkone. Die Penthouse-Grundrisse und Dachterrassen wurden separat modelliert.
 
-WA14 hat 73 aus den Planlücken abgeleitete Außenöffnungen über die drei Geschosse. Hinzu kommt der erkennbare WA12-Eingang. Die Öffnungen sind geometrisch aus den Wandquerschnitten ausgespart, mit zurückliegenden Glasflächen und Rahmen. Lage und Breite sind planabgeleitet; vertikale Abmessungen und die Einteilung der Rahmen sind Annahmen. Die Planüberlagerungen `10_plan_wa14.png` und `11_plan_wa12.png` zeigen die verwendeten Konturen und Öffnungen.
+WA14 hat 73 aus den Planlücken abgeleitete Außenöffnungen über die drei Geschosse. Hinzu kommt der erkennbare WA12-Eingang. Die Öffnungen sind geometrisch aus den Wandquerschnitten ausgespart, mit zurückliegenden Glasflächen und Rahmen. Lage und Breite sind grundrissbasiert; die WA14-Fensterhöhen wurden grafisch aus den nachgereichten Ansichten abgeleitet, mit dokumentierten Ausnahmen. Rahmenprofile und Teilung bleiben vereinfacht. Die Planüberlagerungen `10_plan_wa14.png` und `11_plan_wa12.png` zeigen die verwendeten Konturen und Öffnungen.
 
 WA12 enthält außer dem Eingang **keine erfundene Fensteranordnung**. Seine geschlossenen, nun warm verputzten Fassaden sind Platzhalter für die fehlende Fenster-/Türplanung. Es wurden keine Innenraum- oder Geschossansichten und keine ausmodellierten Wohnungen exportiert.
 
@@ -61,7 +61,7 @@ WA12 enthält außer dem Eingang **keine erfundene Fensteranordnung**. Seine ges
 | WA12 EG-FFB | 171,75 m NH | aus örtlichem Geländeniveau angenähert; keine bestätigte EG-Kote |
 | Geschosse | 2,90 m von FFB zu FFB | für beide Gebäude angenommen; keine Schnitte vorhanden |
 | Decken | 0,24 m | angenommen |
-| Fenster | Oberkante 2,25 m; übliche Brüstung 0,90 m; große Terrassenöffnungen und Eingang bodentief | Höhen angenommen; Tür-/Fensterzuordnung teilweise interpretiert |
+| Fenster | WA14 gemäß individueller Höhentabelle aus Ansichten; WA12-Eingang unverändert | grafische Ableitung, teilweise verdeckte Unterkanten und eine EG-Abweichung bleiben vorläufig |
 | Dach | Flachdach, Attika 0,35 m | angenommener Dachabschluss ohne Dachplan |
 | Oberste Attikakote | WA12 180,80 / WA14 180,55 m NH | Ergebnis der Annahmen, **nicht planbestätigt** |
 | TH-Hinweise | WA12 179,00 / WA14 178,50 m | ungeklärte Bedeutung; stimmt nicht mit den vorläufigen obersten Attiken überein. Nicht als bestätigte Höhenfreigabe behandelt. Schnitt/Legende erforderlich. |
@@ -106,3 +106,13 @@ Alle vier Ansichten stammen erkennbar vom Architekturbüro Rothacker und sind mi
 Da der Nutzer zuletzt ausdrücklich unveränderte Kubatur und Fenster verlangt hat, wurden in dieser Revision **keine Öffnungs- oder sonstigen Geometrien geändert**. Vor einer Anpassung ist zu klären, ob die WA14-Ansichten für Fensterhöhen und Brüstungen trotz ihres älteren Datums gegenüber dem EG maßgeblich sein sollen. Die vorhandenen horizontalen Fensterlagen bleiben grundrissbasiert.
 
 **Farbkorrektur bei beiden Gebäuden:** Hauptfassade sRGB #E0D6C3, Penthaus #D2C9B8. Dadurch bleibt das Penthaus warm und nur leicht dunkler. Farben sind angenähert und keine RAL-/NCS-Festlegung. Der zuvor ergänzte 0,50-m-Dachüberstand bleibt erhalten.
+
+## Aktueller Stand: Fensterhöhen nach Ansichten übernommen
+
+Die anschließende Nutzervorgabe „Nimm es aus den Ansichten“ hebt die vorherige Zurückstellung der WA14-Fensterhöhen auf. Die Abschnitte über unveränderte Öffnungsgeometrie dokumentieren damit nur die frühere Farbkorrektur.
+
+72 der 73 WA14-Öffnungen haben aktualisierte vertikale Maße; die 74. Öffnung ist der unveränderte WA12-Eingang. Sämtliche horizontalen Achsen und Breiten bleiben aus den bisherigen Grundrissen. Einzelne Zuordnungen, Herkunft und Unsicherheiten: `daten/WA14_fensterhoehen_ansichten.json`.
+
+Die gewöhnlichen Fenster erhalten im EG/OG etwa 0,15 m Unterkante und 2,30 m Oberkante relativ zur jeweiligen Modell-FFB; im PH etwa 0,20 m und 2,40 m. Eingangstüren und große Balkon-/Terrassenzugänge beginnen bei 0,00 m. Kleine Nordfenster sind einzeln mit höheren Unterkanten berücksichtigt: EG Öffnung 03 / OG Öffnung 07 etwa 1,20 m; PH Öffnung 03 etwa 1,50 m und Öffnung 06 etwa 1,20 m. Maße sind grafisch aus der Ansicht 1:100 auf 5 cm gerundet, nicht aus eingetragenen Maßketten entnommen. Modell-FFB und Geschosshöhen bleiben unverändert.
+
+**Verbleibende Grenzen:** Nord-EG Öffnung 02 aus dem neueren Grundriss lässt sich nicht eindeutig der älteren Ansicht zuordnen; sie bleibt mit den bisherigen vertikalen Annahmen erhalten. Bei mehreren schmalen Penthausöffnungen verdeckt die Terrassenbrüstung die Unterkante; dort wurde nur die sichtbare Oberkante angepasst und die bisherige Unterkante vorläufig beibehalten. Eine Ableitung nicht sichtbarer Maße wird nicht behauptet. Profilabmessungen, Querteilungen und Absturzsicherungsdetails sind weiterhin vereinfacht. Die Farbgebung bleibt dezent; der 0,50-m-Dachüberstand bleibt unverändert.

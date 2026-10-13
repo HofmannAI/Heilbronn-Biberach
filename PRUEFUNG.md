@@ -49,3 +49,9 @@ Die LoD2-Umgebung enthält weiterhin 93 Gebäude, davon 81 mit geneigten Dachfl�
 Vier WA14-Ansichten wurden vollständig gerendert und visuell gelesen. Datumszuordnung und konkrete Abweichungen sind in `PLANSTAENDE_UND_ANNAHMEN.md` dokumentiert. Die aktuellen Modellfarben setzen das Penthaus nur leicht dunkler ab. Der direkte Vergleich mit dem unmittelbar vorherigen Export bestätigt alle 518 Mesh-Geometrien und sämtliche 74 vorhandenen Öffnungen unverändert; siehe `farbkorrektur_pruefung.json`. Die Ansichten wurden noch nicht zur Änderung der Fenstergeometrie verwendet.
 
 Auch die aktuelle Farbversion wurde im lokalen Chromium-Viewer erneut geladen: Drehen, Zoomen, Vollbild und mobiler Viewport erfolgreich; keine Seitenfehler oder externen Ladeanfragen. Die WA14-Nahansicht wurde nach der Farbkorrektur visuell geprüft.
+
+## Aktuelle Fensterkorrektur aus Ansichten
+
+Die spätere Nutzervorgabe wurde umgesetzt: 72 WA14-Öffnungen mit aktualisierten vertikalen Maßen. Automatisch verglichen: alle 74 horizontalen Öffnungslagen und Breiten identisch; alle nicht zur WA14-Außenwand-/Öffnungsgeometrie gehörenden Meshes unverändert. Das umfasst WA12, Dachüberstände, Balkonplatten und Geländer, Freianlagen und LoD2-Umgebung. Die vertikalen Öffnungen werden tatsächlich aus den Wänden ausgespart. Herkunft und offene Unterkanten: `fensteransichten_pruefung.json`. Frühere Prüfvermerke zur unveränderten Fenstergeometrie beziehen sich auf die vorausgehende Farbkorrektur.
+
+Finale GLB erneut in Chromium geladen; Projektansicht, WA14-Süd-/Terrassenseite und Eingangs-/Nordseite geprüft. Vollbild, Drehen, Zoomen und mobiler Viewport erfolgreich; keine JavaScript-Fehler oder externen Ladeanfragen.
