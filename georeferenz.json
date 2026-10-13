@@ -1,0 +1,15 @@
+{
+  "title": "Finkenbergstraße WA12 und WA14",
+  "status": "Planbasiertes Arbeitsmodell; ungeklärte Höhen und WA12-Fensterplanung",
+  "units": "metre",
+  "origin_ENH": [
+    510395.0,
+    5449110.0,
+    171.5
+  ],
+  "axes": "X=E-510395; Y=H-171.50; Z=5449110-N",
+  "crs": "ETRS89 / UTM32, DHHN2016 NH",
+  "main_scene": "Finkenberg_Hauptszene",
+  "additional_scenes": false,
+  "data_source": "Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Zugeschnitten, konvertiert, ersetzter Bestand entfernt. Projektpläne: bereitgestellte Unterlagen; Rechte bei Urhebern."
+}

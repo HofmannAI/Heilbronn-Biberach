@@ -1,0 +1,22 @@
+[
+  {
+    "original_name": "West.pdf",
+    "package_file": "quellen/ansichten_WA14/West.pdf",
+    "sha256": "9546be4ec0f8616d3ccd8fc27d1b333e5b3ce76fb9c28918f8bcca914594d60d"
+  },
+  {
+    "original_name": "Süd.pdf",
+    "package_file": "quellen/ansichten_WA14/Sued.pdf",
+    "sha256": "23b8de828365057b5e5f4f57b1501138bf0fc9aba523a022ad0049bb1bd4b0e0"
+  },
+  {
+    "original_name": "Biberach W14 Ost.pdf",
+    "package_file": "quellen/ansichten_WA14/Ost.pdf",
+    "sha256": "6dc391bbce8d8eb1cbe8b52f51b7ea10cabefed7a7ed4e3ba0213f915fad8951"
+  },
+  {
+    "original_name": "Biberach W14 Nord.pdf",
+    "package_file": "quellen/ansichten_WA14/Nord.pdf",
+    "sha256": "ff6aee8577209aaa583f630d5142b1b088d3cfed38bb7d828ed77a0748f4db82"
+  }
+]

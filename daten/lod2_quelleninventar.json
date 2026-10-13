@@ -1,0 +1,26 @@
+[
+  {
+    "file": "LoD2_32_509_5448_1_BW.gml",
+    "sha256": "459bde110a33f6747041185cc2ed72665abf1ec237f77d24594962bc0cbe9a1c",
+    "building_count": 33,
+    "crs": "urn:adv:crs:ETRS89_UTM32*DE_DHHN2016_NH"
+  },
+  {
+    "file": "LoD2_32_509_5449_1_BW.gml",
+    "sha256": "3c50e309c9c894d9b7af50f5b52f3a75eee333d9df88b6e849fb58e0190cfedd",
+    "building_count": 206,
+    "crs": "urn:adv:crs:ETRS89_UTM32*DE_DHHN2016_NH"
+  },
+  {
+    "file": "LoD2_32_510_5448_1_BW.gml",
+    "sha256": "3ee6fc814f8ecf742ec1f56fd99508bcc97869067eae40ee0469fc8cb0e90d83",
+    "building_count": 1050,
+    "crs": "urn:adv:crs:ETRS89_UTM32*DE_DHHN2016_NH"
+  },
+  {
+    "file": "LoD2_32_510_5449_1_BW.gml",
+    "sha256": "6161300f4d9b529d21652cb16f9cf32fe0b79f24d0b5d2b261496d40f2ad0b7f",
+    "building_count": 1292,
+    "crs": "urn:adv:crs:ETRS89_UTM32*DE_DHHN2016_NH"
+  }
+]

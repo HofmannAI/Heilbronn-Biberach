@@ -1,0 +1,13 @@
+{
+  "all_518_mesh_geometries_unchanged": true,
+  "all_74_openings_unchanged": true,
+  "main_facade_srgb": "#E0D6C3",
+  "penthouse_srgb": "#D2C9B8",
+  "elevations_reviewed": [
+    "West 31.07.2026",
+    "Sued 31.07.2026",
+    "Ost 28.08.2026",
+    "Nord 28.08.2026"
+  ],
+  "window_height_conflict_pending": true
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01 WA14 EG_21.pdf",
+    "bytes": 506234,
+    "sha256": "3a859cda7eb14fc635530d165d75de5c29316344e0a5ad765eeca5e0bd61bc66"
+  },
+  {
+    "file": "02 WA14 OG_22.pdf",
+    "bytes": 260643,
+    "sha256": "598c18db45240acd18c0fd52359f1f853ba88c0d007dc210fa94354799ec816d"
+  },
+  {
+    "file": "03 WA14 PENTHOUSE_23.pdf",
+    "bytes": 351192,
+    "sha256": "b1ddaf25802658e7fdb15a38c9792bf49839f00871e3003d9a99e7ee4415f43f"
+  },
+  {
+    "file": "1.OG BG W12.pdf",
+    "bytes": 229944,
+    "sha256": "cd465dee79e5b96b706aca4ad4515cf594456ccc424cf1d256ee649219ea6537"
+  },
+  {
+    "file": "26-003BV_Finkenbergstraße_Höhen.dwg",
+    "bytes": 357263,
+    "sha256": "28e55f2b8917d0fef92dacb354a14325481e33dfd38a6528565ec54dd0cc6b56"
+  },
+  {
+    "file": "26-003BV_Finkenbergstraße_Höhen.pdf",
+    "bytes": 329005,
+    "sha256": "25f2cd2698a90a324a3594a23419eec4dd86cbfcd75c6f200c45370d32b803fc"
+  },
+  {
+    "file": "26-003BV_Finkenbergstraße_WBF.pdf",
+    "bytes": 558713,
+    "sha256": "c29676bdd330d2c82a6f3a8db4682bc5d6a4bd90259e681bf67b0682a04ef961"
+  },
+  {
+    "file": "Biberach W12 Penthouse.pdf",
+    "bytes": 255757,
+    "sha256": "52025492881e8164612731c35b36aacfd6f3eacc0fc349bcfbc94869fb9a3f0f"
+  },
+  {
+    "file": "EG BG W12.pdf",
+    "bytes": 266206,
+    "sha256": "2319ae994d12caf19f4f5ce4eadf1701e1d9a7d954da022e9b88b2403af71440"
+  },
+  {
+    "file": "GOVDATA-Datenlizenz_Deutschland(5).pdf",
+    "bytes": 396832,
+    "sha256": "57a0fc81768cfdd20703873d52c34867f52318907c3391a0936e315a77a83de7"
+  },
+  {
+    "file": "INFO_OpenData_LoD1_2026.txt",
+    "bytes": 2854,
+    "sha256": "dc2d1edaa1a91b193f9529fe5d48d9e200f4d73fe573f4312979fbf4e89192f6"
+  },
+  {
+    "file": "LoD1_32_509_5448_1_BW.gml",
+    "bytes": 430867,
+    "sha256": "53a417497f06cc40798746c244416122d802ac90b2bdcd278d67b97d0c40a26a"
+  },
+  {
+    "file": "LoD1_32_509_5449_1_BW.gml",
+    "bytes": 1682942,
+    "sha256": "beb00f6ebc13c823a7b88459353e65e505349534074e4a0a8a43a0271d6c5149"
+  },
+  {
+    "file": "LoD1_32_510_5448_1_BW.gml",
+    "bytes": 9221434,
+    "sha256": "3fd0798e1e04a4eb4d966fc84effe1f9f1020066d1a4512c592515aae1902b57"
+  },
+  {
+    "file": "LoD1_32_510_5449_1_BW.gml",
+    "bytes": 10582973,
+    "sha256": "1667abbb79fca47479872c7481e6accd540e860c8db41001d83a6a82f15aeacc"
+  },
+  {
+    "file": "Meta-3D-Gebäudemodell-LoD1.txt",
+    "bytes": 155,
+    "sha256": "9cd6d7f956670a63f3aba87d1fc2e3488e1b2cf72ca7bd1926ab4799408e46da"
+  }
+]

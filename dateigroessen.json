@@ -1,0 +1,218 @@
+[
+  {
+    "file": "Finkenberg_Projekt.glb",
+    "bytes": 3051216
+  },
+  {
+    "file": "LIZENZEN.md",
+    "bytes": 3026
+  },
+  {
+    "file": "PLANSTAENDE_UND_ANNAHMEN.md",
+    "bytes": 13039
+  },
+  {
+    "file": "PRUEFUNG.md",
+    "bytes": 5988
+  },
+  {
+    "file": "README.md",
+    "bytes": 3066
+  },
+  {
+    "file": "aenderungspruefung.json",
+    "bytes": 2966
+  },
+  {
+    "file": "daten/WA12_EG_walls.json",
+    "bytes": 9641
+  },
+  {
+    "file": "daten/WA12_OG_walls.json",
+    "bytes": 8008
+  },
+  {
+    "file": "daten/WA12_PH_walls.json",
+    "bytes": 5425
+  },
+  {
+    "file": "daten/WA14_EG_walls.json",
+    "bytes": 16040
+  },
+  {
+    "file": "daten/WA14_OG_walls.json",
+    "bytes": 15144
+  },
+  {
+    "file": "daten/WA14_PH_walls.json",
+    "bytes": 11825
+  },
+  {
+    "file": "daten/ansichten_WA14_quellen.json",
+    "bytes": 739
+  },
+  {
+    "file": "daten/belagsflaechen_pdf.json",
+    "bytes": 38204
+  },
+  {
+    "file": "daten/gebaeude_parameter.json",
+    "bytes": 6939
+  },
+  {
+    "file": "daten/gml_auszug.json",
+    "bytes": 310892
+  },
+  {
+    "file": "daten/lageplan.json",
+    "bytes": 23364
+  },
+  {
+    "file": "daten/lod2_quelleninventar.json",
+    "bytes": 851
+  },
+  {
+    "file": "daten/quellen_hashes.json",
+    "bytes": 2449
+  },
+  {
+    "file": "daten/quelleninventar.json",
+    "bytes": 993
+  },
+  {
+    "file": "daten/reg_WA12.json",
+    "bytes": 205
+  },
+  {
+    "file": "daten/reg_WA14.json",
+    "bytes": 202
+  },
+  {
+    "file": "daten/umgebung_bodenpunkte_lod1.json",
+    "bytes": 105015
+  },
+  {
+    "file": "daten/vermessung.json",
+    "bytes": 38934
+  },
+  {
+    "file": "erzeugen.py",
+    "bytes": 21663
+  },
+  {
+    "file": "farbkorrektur_pruefung.json",
+    "bytes": 312
+  },
+  {
+    "file": "georeferenz.json",
+    "bytes": 564
+  },
+  {
+    "file": "index.html",
+    "bytes": 11431
+  },
+  {
+    "file": "kontrollansichten/01_projekt.png",
+    "bytes": 255112
+  },
+  {
+    "file": "kontrollansichten/02_draufsicht.png",
+    "bytes": 337365
+  },
+  {
+    "file": "kontrollansichten/03_suedansicht.png",
+    "bytes": 195851
+  },
+  {
+    "file": "kontrollansichten/04_westansicht.png",
+    "bytes": 170940
+  },
+  {
+    "file": "kontrollansichten/05_umgebung.png",
+    "bytes": 187939
+  },
+  {
+    "file": "kontrollansichten/06_wa12.png",
+    "bytes": 184626
+  },
+  {
+    "file": "kontrollansichten/07_wa14.png",
+    "bytes": 231275
+  },
+  {
+    "file": "kontrollansichten/08_wa12_eingang.png",
+    "bytes": 160701
+  },
+  {
+    "file": "kontrollansichten/09_wa14_eingang.png",
+    "bytes": 146071
+  },
+  {
+    "file": "kontrollansichten/10_plan_wa14.png",
+    "bytes": 746749
+  },
+  {
+    "file": "kontrollansichten/11_plan_wa12.png",
+    "bytes": 496811
+  },
+  {
+    "file": "kontrollansichten/12_mobil.png",
+    "bytes": 94971
+  },
+  {
+    "file": "pruefen.py",
+    "bytes": 2587
+  },
+  {
+    "file": "pruefwerte.json",
+    "bytes": 40419
+  },
+  {
+    "file": "quellen/ansichten_WA14/Nord.pdf",
+    "bytes": 39955
+  },
+  {
+    "file": "quellen/ansichten_WA14/Ost.pdf",
+    "bytes": 27380
+  },
+  {
+    "file": "quellen/ansichten_WA14/Sued.pdf",
+    "bytes": 34731
+  },
+  {
+    "file": "quellen/ansichten_WA14/West.pdf",
+    "bytes": 30916
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 78
+  },
+  {
+    "file": "vendor/BufferGeometryUtils.js",
+    "bytes": 35539
+  },
+  {
+    "file": "vendor/GLTFLoader.js",
+    "bytes": 114732
+  },
+  {
+    "file": "vendor/LICENSE",
+    "bytes": 1081
+  },
+  {
+    "file": "vendor/OrbitControls.js",
+    "bytes": 38703
+  },
+  {
+    "file": "vendor/three.core.js",
+    "bytes": 1403455
+  },
+  {
+    "file": "vendor/three.module.js",
+    "bytes": 603113
+  },
+  {
+    "file": "viewer_pruefung.json",
+    "bytes": 654
+  }
+]
