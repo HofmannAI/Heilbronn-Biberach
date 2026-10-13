@@ -33,3 +33,5 @@ Vier LoD2-Kacheln: `LoD2_32_509_5448_1_BW.gml`, `LoD2_32_509_5449_1_BW.gml`, `Lo
 Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Lizenz: https://www.govdata.de/dl-de/by-2-0. Metadaten: https://metadaten.geoportal-bw.de/geonetwork/srv/api/records/3c42c386-5ba2-43e3-8e6d-2146fa99cdeb/formatters/xsl-view?output=pdf&language=ger&approved=true . Änderungen: räumlicher Ausschnitt, Entfernung der dokumentierten Ersatzobjekte, Triangulation, lokale Koordinaten und neutrale Darstellungsfarben. Ursprüngliche LoD1-Bodenpunkte bleiben Grundlage der äußeren Geländeannäherung.
 
 Gestaltungsreferenz: vom Nutzer im Chat bereitgestelltes Architekturbild; Urheber nicht benannt. Bild selbst nicht im Paket enthalten; Farben lediglich angenähert.
+
+WA12-Fenster- und Freianlagenentwurf: neu erstellter Gestaltungsvorschlag auf Grundlage der bereitgestellten Grundrisse und Vermessung. Die Urheberrechte der zugrunde liegenden Projektpläne verbleiben bei deren Urhebern. Die Plan-PDFs kennzeichnen ergänzte Öffnungen blau.

@@ -1,23 +1,35 @@
 [
   {
     "file": "Finkenberg_Projekt.glb",
-    "bytes": 3111112
+    "bytes": 3312232
+  },
+  {
+    "file": "Freianlagen_Entwurf.pdf",
+    "bytes": 19143
   },
   {
     "file": "LIZENZEN.md",
-    "bytes": 3026
+    "bytes": 3303
   },
   {
     "file": "PLANSTAENDE_UND_ANNAHMEN.md",
-    "bytes": 14914
+    "bytes": 17803
   },
   {
     "file": "PRUEFUNG.md",
-    "bytes": 6875
+    "bytes": 7923
   },
   {
     "file": "README.md",
-    "bytes": 3066
+    "bytes": 3431
+  },
+  {
+    "file": "WA12_Fensterkonzept.pdf",
+    "bytes": 562410
+  },
+  {
+    "file": "WA12_entwurf_pruefung.json",
+    "bytes": 453
   },
   {
     "file": "aenderungspruefung.json",
@@ -34,6 +46,10 @@
   {
     "file": "daten/WA12_PH_walls.json",
     "bytes": 5425
+  },
+  {
+    "file": "daten/WA12_fenstervorschlag.json",
+    "bytes": 20974
   },
   {
     "file": "daten/WA14_EG_walls.json",
@@ -58,6 +74,10 @@
   {
     "file": "daten/belagsflaechen_pdf.json",
     "bytes": 38204
+  },
+  {
+    "file": "daten/freianlagen_entwurf.json",
+    "bytes": 31669
   },
   {
     "file": "daten/gebaeude_parameter.json",
@@ -101,7 +121,7 @@
   },
   {
     "file": "erzeugen.py",
-    "bytes": 22140
+    "bytes": 24170
   },
   {
     "file": "farbkorrektur_pruefung.json",
@@ -113,47 +133,47 @@
   },
   {
     "file": "georeferenz.json",
-    "bytes": 564
+    "bytes": 573
   },
   {
     "file": "index.html",
-    "bytes": 11558
+    "bytes": 11797
   },
   {
     "file": "kontrollansichten/01_projekt.png",
-    "bytes": 256018
+    "bytes": 269324
   },
   {
     "file": "kontrollansichten/02_draufsicht.png",
-    "bytes": 338041
+    "bytes": 357949
   },
   {
     "file": "kontrollansichten/03_suedansicht.png",
-    "bytes": 196696
+    "bytes": 202887
   },
   {
     "file": "kontrollansichten/04_westansicht.png",
-    "bytes": 170756
+    "bytes": 202710
   },
   {
     "file": "kontrollansichten/05_umgebung.png",
-    "bytes": 188049
+    "bytes": 192547
   },
   {
     "file": "kontrollansichten/06_wa12.png",
-    "bytes": 184626
+    "bytes": 202457
   },
   {
     "file": "kontrollansichten/07_wa14.png",
-    "bytes": 230985
+    "bytes": 242113
   },
   {
     "file": "kontrollansichten/08_wa12_eingang.png",
-    "bytes": 160701
+    "bytes": 186532
   },
   {
     "file": "kontrollansichten/09_wa14_eingang.png",
-    "bytes": 146561
+    "bytes": 151328
   },
   {
     "file": "kontrollansichten/10_plan_wa14.png",
@@ -165,7 +185,11 @@
   },
   {
     "file": "kontrollansichten/12_mobil.png",
-    "bytes": 91732
+    "bytes": 100306
+  },
+  {
+    "file": "konzeptplaene_erzeugen.py",
+    "bytes": 8704
   },
   {
     "file": "pruefen.py",
@@ -173,7 +197,7 @@
   },
   {
     "file": "pruefwerte.json",
-    "bytes": 65581
+    "bytes": 108539
   },
   {
     "file": "quellen/ansichten_WA14/Nord.pdf",
@@ -190,6 +214,18 @@
   {
     "file": "quellen/ansichten_WA14/West.pdf",
     "bytes": 30916
+  },
+  {
+    "file": "quellen/grundrisse_WA12/EG.pdf",
+    "bytes": 266206
+  },
+  {
+    "file": "quellen/grundrisse_WA12/OG.pdf",
+    "bytes": 229944
+  },
+  {
+    "file": "quellen/grundrisse_WA12/PH.pdf",
+    "bytes": 255757
   },
   {
     "file": "requirements.txt",

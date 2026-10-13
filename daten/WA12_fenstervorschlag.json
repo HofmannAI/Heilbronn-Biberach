@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "WA12_EG_V01",
+    "story": "EG",
+    "room": "WE1 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        299.5511811023622,
+        256.5215
+      ],
+      [
+        330.4488188976378,
+        256.5215
+      ]
+    ],
+    "center_pdf": [
+      315,
+      256.5215
+    ],
+    "reason": "Belichtung der tiefen Wohnzone; Achse mit OG.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V02",
+    "story": "EG",
+    "room": "WE1 Essen / Terrasse",
+    "kind": "Zugang",
+    "width_m": 2.4,
+    "sill_m": 0,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        165.98425196850394,
+        299.04
+      ],
+      [
+        234.01574803149606,
+        299.04
+      ]
+    ],
+    "center_pdf": [
+      200,
+      299.04
+    ],
+    "reason": "Direkter Zugang zur eingezeichneten Terrasse; Küchenzeile bleibt frei.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V03",
+    "story": "EG",
+    "room": "WE1 Schlafen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        490.3977,
+        302.5511811023622
+      ],
+      [
+        490.3977,
+        333.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      490.3977,
+      318
+    ],
+    "reason": "Seitenfenster statt Öffnung hinter dem Bettkopf an der Stirnwand.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V04",
+    "story": "EG",
+    "room": "WE1 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        490.3977,
+        396.51181102362204
+      ],
+      [
+        490.3977,
+        417.48818897637796
+      ]
+    ],
+    "center_pdf": [
+      490.3977,
+      407
+    ],
+    "reason": "Hochliegend neben den Sanitärobjekten; Sichtschutzglas vorgeschlagen.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V05",
+    "story": "EG",
+    "room": "WE1 Zimmer 1",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        175.48,
+        423.5511811023622
+      ],
+      [
+        175.48,
+        454.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      175.48,
+      439
+    ],
+    "reason": "Fenster am bestehenden Fassadenrücksprung, nicht an der Innenwand.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V06",
+    "story": "EG",
+    "room": "Gehhilfenraum",
+    "kind": "Nebenraum",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        140.0478,
+        640.511811023622
+      ],
+      [
+        140.0478,
+        661.488188976378
+      ]
+    ],
+    "center_pdf": [
+      140.0478,
+      651
+    ],
+    "reason": "Kleine hochliegende Öffnung; Nutzung bleibt gut möblierbar.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V07",
+    "story": "EG",
+    "room": "Treppenhaus / Flur",
+    "kind": "Nebenraum",
+    "width_m": 1.09,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        140.0478,
+        719.5511811023622
+      ],
+      [
+        140.0478,
+        750.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      140.0478,
+      735
+    ],
+    "reason": "Tageslicht für Erschließung; exakte Lage nach Treppenschnitt zu bestätigen.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V08",
+    "story": "EG",
+    "room": "Technik",
+    "kind": "Nebenraum",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        140.0478,
+        879.511811023622
+      ],
+      [
+        140.0478,
+        900.488188976378
+      ]
+    ],
+    "center_pdf": [
+      140.0478,
+      890
+    ],
+    "reason": "Hochliegendes Fenster; ersetzt keine technische Zu-/Abluftplanung.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_EG_V09",
+    "story": "EG",
+    "room": "Technik",
+    "kind": "Nebenraum",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        205.51181102362204,
+        958.3551
+      ],
+      [
+        226.48818897637796,
+        958.3551
+      ]
+    ],
+    "center_pdf": [
+      216,
+      958.3551
+    ],
+    "reason": "Zweites zurückhaltendes Nebenraumformat auf der Stirnseite.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V01",
+    "story": "OG",
+    "room": "WE2 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        338.9366211023622,
+        242.7892
+      ],
+      [
+        369.8342588976378,
+        242.7892
+      ]
+    ],
+    "center_pdf": [
+      354.38544,
+      242.7892
+    ],
+    "reason": "Achsgleich zum EG-Wohnfenster.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V02",
+    "story": "OG",
+    "room": "WE2 Wohnen / Balkon Nord",
+    "kind": "Zugang",
+    "width_m": 2.4,
+    "sill_m": 0,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        205.36969196850393,
+        285.31
+      ],
+      [
+        273.4011880314961,
+        285.31
+      ]
+    ],
+    "center_pdf": [
+      239.38544,
+      285.31
+    ],
+    "reason": "Zugang zum 7,74-m²-Balkon.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V03",
+    "story": "OG",
+    "room": "WE2 Schlafen groß",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        288.81882110236216
+      ],
+      [
+        529.7831,
+        319.7164588976378
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      304.26764
+    ],
+    "reason": "Achsgleich zu WE1 Schlafen; Bettkopf bleibt geschlossen.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V04",
+    "story": "OG",
+    "room": "WE2 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        382.779451023622
+      ],
+      [
+        529.7831,
+        403.7558289763779
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      393.26764
+    ],
+    "reason": "Hochliegendes Fenster; Außenwandöffnung unabhängig vom innenliegenden Abstellraum. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V05",
+    "story": "OG",
+    "room": "WE2 Zimmer 1",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        434.5511811023622
+      ],
+      [
+        529.7831,
+        465.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      450
+    ],
+    "reason": "Eigene Belichtung des Kinder-/Arbeitszimmers.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V06",
+    "story": "OG",
+    "room": "WE2 Schlafen klein / Balkon",
+    "kind": "Zugang",
+    "width_m": 1.09,
+    "sill_m": 0,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        214.865,
+        409.81882110236216
+      ],
+      [
+        214.865,
+        440.7164588976378
+      ]
+    ],
+    "center_pdf": [
+      214.865,
+      425.26764
+    ],
+    "reason": "Balkontür zum 4,16-m²-Balkon; Achse zum EG-Zimmerfenster.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V07",
+    "story": "OG",
+    "room": "WE3 Küche/Essen / Balkon",
+    "kind": "Zugang",
+    "width_m": 2.4,
+    "sill_m": 0,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        494.35,
+        508.98425196850394
+      ],
+      [
+        494.35,
+        577.0157480314961
+      ]
+    ],
+    "center_pdf": [
+      494.35,
+      543
+    ],
+    "reason": "Zugang zum 4,34-m²-Balkon; Küchenzeile an der Innenwand bleibt frei.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V08",
+    "story": "OG",
+    "room": "WE3 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        609.5511811023622
+      ],
+      [
+        529.7831,
+        640.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      625
+    ],
+    "reason": "Zusätzliche Belichtung getrennt vom Balkonzugang.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V09",
+    "story": "OG",
+    "room": "WE3 Schlafen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        709.5511811023622
+      ],
+      [
+        529.7831,
+        740.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      725
+    ],
+    "reason": "Eigene Außenöffnung, Abstand zu Raumtrennwänden.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V10",
+    "story": "OG",
+    "room": "WE4 Küche",
+    "kind": "Zimmer",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        529.7831,
+        813.511811023622
+      ],
+      [
+        529.7831,
+        834.488188976378
+      ]
+    ],
+    "center_pdf": [
+      529.7831,
+      824
+    ],
+    "reason": "Fenster an freier Stirnwand neben der Küchenzeile; Sill separat erhöht.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V11",
+    "story": "OG",
+    "room": "WE4 Wohnen / Balkon Süd",
+    "kind": "Zugang",
+    "width_m": 2.4,
+    "sill_m": 0,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        466,
+        865.9842519685039
+      ],
+      [
+        466,
+        934.0157480314961
+      ]
+    ],
+    "center_pdf": [
+      466,
+      900
+    ],
+    "reason": "Zugang zum 7,64-m²-Balkon.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V12",
+    "story": "OG",
+    "room": "WE4 Schlafen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        219.5511811023622,
+        958.7955
+      ],
+      [
+        250.4488188976378,
+        958.7955
+      ]
+    ],
+    "center_pdf": [
+      235,
+      958.7955
+    ],
+    "reason": "Fenster an freier Stirnseite, Bettstellwand seitlich bleibt nutzbar.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V13",
+    "story": "OG",
+    "room": "WE4 Zimmer 1",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        310.5511811023622,
+        958.7955
+      ],
+      [
+        341.4488188976378,
+        958.7955
+      ]
+    ],
+    "center_pdf": [
+      326,
+      958.7955
+    ],
+    "reason": "Eigene Außenöffnung für das 10-m²-Zimmer.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V14",
+    "story": "OG",
+    "room": "WE4 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        394.5511811023622,
+        958.7955
+      ],
+      [
+        425.4488188976378,
+        958.7955
+      ]
+    ],
+    "center_pdf": [
+      410,
+      958.7955
+    ],
+    "reason": "Zusätzliches stehendes Fenster neben der breiten Balkontür.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V15",
+    "story": "OG",
+    "room": "WE4 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        179.4332,
+        711.511811023622
+      ],
+      [
+        179.4332,
+        732.488188976378
+      ]
+    ],
+    "center_pdf": [
+      179.4332,
+      722
+    ],
+    "reason": "Hochliegendes Fenster über Sanitärbereich.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V16",
+    "story": "OG",
+    "room": "WE5 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        179.4332,
+        648.511811023622
+      ],
+      [
+        179.4332,
+        669.488188976378
+      ]
+    ],
+    "center_pdf": [
+      179.4332,
+      659
+    ],
+    "reason": "Eigenes hochliegendes Badfenster.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V17",
+    "story": "OG",
+    "room": "WE5 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        179.4332,
+        500.5511811023622
+      ],
+      [
+        179.4332,
+        531.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      179.4332,
+      516
+    ],
+    "reason": "Stehendes Fenster im Wohnbereich.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_OG_V18",
+    "story": "OG",
+    "room": "WE5 Wohnen/Küche",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.3,
+    "ends_pdf": [
+      [
+        179.4332,
+        570.5511811023622
+      ],
+      [
+        179.4332,
+        601.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      179.4332,
+      586
+    ],
+    "reason": "Zweites gleiches Format; keine breite Öffnung durch Küchenmöblierung.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V01",
+    "story": "PH",
+    "room": "WE6 Zimmer 1",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        269.0910811023622
+      ],
+      [
+        537.2878,
+        299.9887188976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      284.5399
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V02",
+    "story": "PH",
+    "room": "WE6 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        334.51181102362204
+      ],
+      [
+        537.2878,
+        355.48818897637796
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      345
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V03",
+    "story": "PH",
+    "room": "WE6 Schlafen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        414.8234411023622
+      ],
+      [
+        537.2878,
+        445.7210788976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      430.27226
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V04",
+    "story": "PH",
+    "room": "WE7 Schlafen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        507.82344110236215
+      ],
+      [
+        537.2878,
+        538.7210788976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      523.27226
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V05",
+    "story": "PH",
+    "room": "WE7 DU/WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        594.784071023622
+      ],
+      [
+        537.2878,
+        615.7604489763779
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      605.27226
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V06",
+    "story": "PH",
+    "room": "WE7 Zimmer 1",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        689.8234411023622
+      ],
+      [
+        537.2878,
+        720.7210788976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      705.27226
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei. Fensterachse mit passender Öffnung des Nachbargeschosses abgestimmt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V07",
+    "story": "PH",
+    "room": "WE7 Abstellraum",
+    "kind": "Nebenraum",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        775.511811023622
+      ],
+      [
+        537.2878,
+        796.488188976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      786
+    ],
+    "reason": "An dieser Außenwand liegt der Abstellraum; das benachbarte WC ist innenliegend und erhält kein erfundenes Außenfenster.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V08",
+    "story": "PH",
+    "room": "WE7 Wohnen",
+    "kind": "Zimmer",
+    "width_m": 1.09,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        537.2878,
+        844.5511811023622
+      ],
+      [
+        537.2878,
+        875.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      537.2878,
+      860
+    ],
+    "reason": "Je Raum eigene Öffnung; Raumtrennwände und Küchenmöblierung bleiben frei.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V09",
+    "story": "PH",
+    "room": "WE6 Wohnen / Dachterrasse",
+    "kind": "Zugang",
+    "width_m": 2.99,
+    "sill_m": 0,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        297.77,
+        275.62204724409446
+      ],
+      [
+        297.77,
+        360.37795275590554
+      ]
+    ],
+    "center_pdf": [
+      297.77,
+      318
+    ],
+    "reason": "Breite Öffnung zur vorhandenen Dachterrasse, außerhalb der Küchenzeile.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V10",
+    "story": "PH",
+    "room": "WE6 WC",
+    "kind": "Bad",
+    "width_m": 0.74,
+    "sill_m": 1.2,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        297.77,
+        511.51181102362204
+      ],
+      [
+        297.77,
+        532.488188976378
+      ]
+    ],
+    "center_pdf": [
+      297.77,
+      522
+    ],
+    "reason": "Hochliegendes Fenster mit Sichtschutz zur Dachterrasse.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V11",
+    "story": "PH",
+    "room": "Treppenhaus PH",
+    "kind": "Nebenraum",
+    "width_m": 1.09,
+    "sill_m": 1.2,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        297.77,
+        606.5511811023622
+      ],
+      [
+        297.77,
+        637.4488188976378
+      ]
+    ],
+    "center_pdf": [
+      297.77,
+      622
+    ],
+    "reason": "Tageslicht; Rettungs-/Rauchabzugsfunktion nicht festgelegt.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V12",
+    "story": "PH",
+    "room": "WE7 Essen / Dachterrasse",
+    "kind": "Zugang",
+    "width_m": 2.4,
+    "sill_m": 0,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        297.77,
+        860.9842519685039
+      ],
+      [
+        297.77,
+        929.0157480314961
+      ]
+    ],
+    "center_pdf": [
+      297.77,
+      895
+    ],
+    "reason": "Terrassentür südlich der Küchenzeile.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  },
+  {
+    "id": "WA12_PH_V13",
+    "story": "PH",
+    "room": "WE7 Wohnen Süd",
+    "kind": "Zimmer",
+    "width_m": 2.99,
+    "sill_m": 0.15,
+    "head_m": 2.4,
+    "ends_pdf": [
+      [
+        422.62204724409446,
+        939.0677
+      ],
+      [
+        507.37795275590554,
+        939.0677
+      ]
+    ],
+    "center_pdf": [
+      465,
+      939.0677
+    ],
+    "reason": "Breite Verglasung für den 39,39-m²-Wohn-/Essbereich.",
+    "status": "Gestaltungsvorschlag; keine freigegebene Fensterplanung"
+  }
+]

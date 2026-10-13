@@ -51,6 +51,9 @@ def tube(a,b,r=.018):
  aa=local([a,b]);return trimesh.creation.cylinder(radius=r,segment=aa,sections=8)
 
 elevation_windows=read('WA14_fensterhoehen_ansichten.json')
+wa12_proposals=read('WA12_fenstervorschlag.json')
+for spec in wa12_proposals:
+ elevation_windows[spec['id']]={**spec,'source':'Grundrissbezogener Fenstervorschlag WA12'}
 conf=read('gebaeude_parameter.json');site={k:Polygon(v) for k,v in read('lageplan.json').items()};plots=unary_union([site['WA12'],site['WA14']]);regs={k:read(c['register']) for k,c in conf.items()}
 def xy(k,s,points):
  r=regs[k];a=r['angle'];R=np.array([[math.cos(a),math.sin(a)],[math.sin(a),-math.cos(a)]])
@@ -197,15 +200,21 @@ for k,c in conf.items():
    # The entrance is actually drawn; remaining exterior windows are not supplied.
    a0,b0=xy(k,sn,[[426.62,542.0],[426.62,585.0]])
    gaps.append((LineString([a0,b0]).buffer(.65,cap_style=2),0,a0,b0,np.linalg.norm(b0-a0),3))
+  proposal_names={}
+  if k=='WA12':
+   for spec in wa12_proposals:
+    if spec['story']!=sn:continue
+    a0,b0=xy(k,sn,spec['ends_pdf']);proposal_names[len(gaps)]=spec['id']
+    gaps.append((LineString([a0,b0]).buffer(.65,cap_style=2),spec['sill_m'],a0,b0,spec['width_m'],-1))
   gap_heads=[]
   for gi,g in enumerate(gaps):
-   spec=elevation_windows.get(f'{parent}_Oeffnung_{gi+1:02d}')
+   spec=elevation_windows.get(proposal_names.get(gi,f'{parent}_Oeffnung_{gi+1:02d}'))
    if spec:gaps[gi]=(g[0],spec['sill_m'],*g[2:])
    gap_heads.append(spec['head_m'] if spec else HEAD)
   walls=[];levels=sorted(set([0,SILL,HEAD,STORY-SLAB]+[g[1] for g in gaps]+gap_heads))
   for z0,z1 in zip(levels[:-1],levels[1:]):
-   active=[g[0] for g,hh in zip(gaps,gap_heads) if g[1]<=z0+.001 and (k=='WA12' or hh>=z1-.001)];part=shell.difference(unary_union(active)) if active else shell;walls.append(solid(part,h+z0,h+z1))
-  add(combine(walls),parent+'_Aussenwaende_mit_Rezessen','Penthaus' if sn=='PH' else 'Putz' if k=='WA14' else 'WA12_Platzhalter',parent,{'source':'Grundriss','window_layout':'planabgeleitet' if k=='WA14' else 'fehlend; geschlossene Platzhalterfassaden'})
+   active=[g[0] for g,hh in zip(gaps,gap_heads) if g[1]<=z0+.001 and hh>=z1-.001];part=shell.difference(unary_union(active)) if active else shell;walls.append(solid(part,h+z0,h+z1))
+  add(combine(walls),parent+'_Aussenwaende_mit_Rezessen','Penthaus' if sn=='PH' else 'Putz' if k=='WA14' else 'WA12_Platzhalter',parent,{'source':'Grundriss','window_layout':'planabgeleitet' if k=='WA14' else 'Raumbezogener Fenstervorschlag; noch nicht freigegeben'})
   for i,(_,sill,a0,b0,width,edge) in enumerate(gaps):
    head=gap_heads[i]
    u=(b0-a0)/width;frame=[]
@@ -213,7 +222,7 @@ for k,c in conf.items():
    frame.extend([bar(a1,b1,.10,h+sill,h+sill+.065),bar(a1,b1,.10,h+head-.065,h+head)])
    for p in [a1,b1]:frame.append(solid(Point(p).buffer(.055,cap_style=3),h+sill,h+head))
    if width>1.4:frame.append(solid(Point((a1+b1)/2).buffer(.026,cap_style=3),h+sill,h+head))
-   name=f'{parent}_Oeffnung_{i+1:02d}';add(combine(frame),name+'_Rahmen','Metall',parent)
+   name=proposal_names.get(i,f'{parent}_Oeffnung_{i+1:02d}');add(combine(frame),name+'_Rahmen','Metall',parent)
    add(bar(a1,b1,.025,h+sill+.06,h+head-.06),name+'_Glas','Glas',parent)
    audit['window_openings'].append({'building':k,'story':sn,'name':name,'edge':edge,'width_m':width,'sill_assumed_m':sill,'head_assumed_m':head,'height_source':elevation_windows.get(name,{'note':'bisherige Annahme'}),'ends_EN':[a0.tolist(),b0.tolist()]})
   # Plan-colored exterior paving areas are filtered against each floor interior.
@@ -291,7 +300,20 @@ for row in survey['lines']:
   z=min(a[2],b[2]);walls.append(bar(a[:2],b[:2],.20,z-.5,z))
 add(combine(walls),'Vermessene_Bestandsmauern_Hoehe_unten_angenommen','Sockel','Gelaende_und_Gewaesser')
 
-scene.metadata={'title':'Finkenbergstraße WA12 und WA14','status':'Planbasiertes Arbeitsmodell; ungeklärte Höhen und WA12-Fensterplanung','units':'metre','origin_ENH':ORIGIN.tolist(),'axes':'X=E-510395; Y=H-171.50; Z=5449110-N','crs':'ETRS89 / UTM32, DHHN2016 NH','main_scene':'Finkenberg_Hauptszene','additional_scenes':False,'data_source':'Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Zugeschnitten, konvertiert, ersetzter Bestand entfernt. Projektpläne: bereitgestellte Unterlagen; Rechte bei Urhebern.'}
+# User-requested simple landscape concept: all objects remain explicitly proposed.
+landscape=read('freianlagen_entwurf.json');group('Freianlagen_Entwurf')
+for i,row in enumerate(landscape['beds']):
+ add(drape(Polygon(row['polygon']),.06),f"{row['building']}_Pflanzbeet_Vorschlag_{i+1}",'Holz','Freianlagen_Entwurf',{'status':'Gestaltungsvorschlag'})
+for i,row in enumerate(landscape['shrubs']):
+ x,y=row['EN'];h=float(height([[x,y]])[0]);m=trimesh.creation.icosphere(subdivisions=1,radius=1);m.vertices*=np.array([row['radius_m'],row['height_m']/2,row['radius_m']]);m.apply_translation(local([[x,y,h+row['height_m']/2]])[0]);add(m,f"{row['building']}_Strauch_Vorschlag_{i+1}",'Laub','Freianlagen_Entwurf')
+for row in landscape['trees']:
+ x,y=row['EN'];h=float(height([[x,y]])[0]);add(tube([x,y,h],[x,y,h+3.4],.075),row['id']+'_Stamm_Vorschlag','Holz','Freianlagen_Entwurf')
+ m=trimesh.creation.icosphere(subdivisions=2,radius=1);m.vertices*=np.array([row['crown_radius_m'],1.4,row['crown_radius_m']]);m.apply_translation(local([[x,y,h+2.8]])[0]);add(m,row['id']+'_Krone_Vorschlag','Laub','Freianlagen_Entwurf')
+for row in landscape['seating']:
+ pp=Polygon(row['polygon']);add(drape(pp,.095),row['id']+'_Belag_Vorschlag','Belag','Freianlagen_Entwurf');x,y=row['EN'];h=float(height([[x,y]])[0]);add(solid(box(x-.9,y-.25,x+.9,y+.25),h+.40,h+.47),row['id']+'_Bank_Vorschlag','Holz','Freianlagen_Entwurf')
+ for xx in [x-.65,x+.65]:add(solid(box(xx-.04,y-.2,xx+.04,y+.2),h,h+.42),row['id']+f'_Fuss_{xx}','Metall','Freianlagen_Entwurf')
+
+scene.metadata={'title':'Finkenbergstraße WA12 und WA14','status':'Planmodell mit Entwurfsvorschlag WA12-Fenster und Freianlagen; Höhen vorläufig','units':'metre','origin_ENH':ORIGIN.tolist(),'axes':'X=E-510395; Y=H-171.50; Z=5449110-N','crs':'ETRS89 / UTM32, DHHN2016 NH','main_scene':'Finkenberg_Hauptszene','additional_scenes':False,'data_source':'Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Zugeschnitten, konvertiert, ersetzter Bestand entfernt. Projektpläne: bereitgestellte Unterlagen; Rechte bei Urhebern.'}
 def finish_tree(tree):
  tree['scenes'][0]['name']='Finkenberg_Hauptszene'
  tree['scene']=0

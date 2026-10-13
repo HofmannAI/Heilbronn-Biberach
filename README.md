@@ -1,6 +1,6 @@
 # Finkenbergstraße — WA12 und WA14
 
-Überarbeitetes Präsentationsmodell, Stand 13.10.2026: warme Fassaden nach Referenzbild, nur leicht abgesetzte Penthausfassaden, 50 cm Dachüberstand zu den Terrassen und originale LoD2-Bestandsdächer. Beide Neubauten sind maßstäblich in die vermessene Umgebung eingesetzt. Die Gebäudehöhen sind vorläufig; die WA12-Fensterplanung fehlt in den Unterlagen. Dieser Stand ist deshalb kein abschließend planbestätigtes Architekturmodell.
+Überarbeitetes Präsentationsmodell, Stand 13.10.2026: warme Fassaden nach Referenzbild, nur leicht abgesetzte Penthausfassaden, 50 cm Dachüberstand zu den Terrassen und originale LoD2-Bestandsdächer. Beide Neubauten sind maßstäblich in die vermessene Umgebung eingesetzt. Die Gebäudehöhen sind vorläufig; WA12-Fenster und ergänzende Freianlagen sind als raumbezogener Entwurf vorgeschlagen. Dieser Stand ist deshalb kein abschließend planbestätigtes Architekturmodell.
 
 ## Website
 
@@ -48,3 +48,7 @@ Der Generator benötigt keine Originaldateien und keinen Internetzugriff währen
 Gebäudeumrisse, Geschossverschiebungen und EG-Höhen stehen in `daten/gebaeude_parameter.json`. Geschosshöhe, Öffnungshöhen, Attika und Geländer sind am Anfang von `erzeugen.py` veränderbar. Die WA14-Öffnungen werden getrennt je Geschoss aus den mitgelieferten Wandvektoren abgeleitet. Die beiden `reg_*.json` bestimmen Lage und Richtung. `pruefwerte.json` wird bei jedem Lauf neu erzeugt.
 
 Alle gelieferten Einzeldateien und auch das ZIP sind kleiner als 25.000.000 Byte. Die GLB ist unkomprimiert; ein Decoder ist nicht erforderlich.
+
+## Neue Konzeptpläne
+
+`WA12_Fensterkonzept.pdf`: drei Grundrisse mit Öffnungen und Raumzuordnung. `Freianlagen_Entwurf.pdf`: einfacher Lageplan, A3 / 1:400. `konzeptplaene_erzeugen.py` erzeugt beide PDFs aus den mitgelieferten Quellen und Daten; zusätzlich zu den Modellbibliotheken werden pymupdf und reportlab benötigt.

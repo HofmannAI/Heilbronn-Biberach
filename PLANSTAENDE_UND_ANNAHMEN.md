@@ -51,7 +51,7 @@ Die Außenkonturen wurden geschossweise übertragen. Vertikale Einschnitte sind 
 
 WA14 hat 73 aus den Planlücken abgeleitete Außenöffnungen über die drei Geschosse. Hinzu kommt der erkennbare WA12-Eingang. Die Öffnungen sind geometrisch aus den Wandquerschnitten ausgespart, mit zurückliegenden Glasflächen und Rahmen. Lage und Breite sind grundrissbasiert; die WA14-Fensterhöhen wurden grafisch aus den nachgereichten Ansichten abgeleitet, mit dokumentierten Ausnahmen. Rahmenprofile und Teilung bleiben vereinfacht. Die Planüberlagerungen `10_plan_wa14.png` und `11_plan_wa12.png` zeigen die verwendeten Konturen und Öffnungen.
 
-WA12 enthält außer dem Eingang **keine erfundene Fensteranordnung**. Seine geschlossenen, nun warm verputzten Fassaden sind Platzhalter für die fehlende Fenster-/Türplanung. Es wurden keine Innenraum- oder Geschossansichten und keine ausmodellierten Wohnungen exportiert.
+WA12 enthält inzwischen einen ausdrücklich als Entwurf bezeichneten, grundrissbezogenen Fenstervorschlag; siehe neueste Ergänzung unten. Die bisher geschlossenen Platzhalterfassaden wurden dafür geöffnet. Es wurden keine Innenraum- oder Geschossansichten und keine ausmodellierten Wohnungen exportiert.
 
 ## Wesentliche Annahmen und Konflikte
 
@@ -116,3 +116,17 @@ Die anschließende Nutzervorgabe „Nimm es aus den Ansichten“ hebt die vorher
 Die gewöhnlichen Fenster erhalten im EG/OG etwa 0,15 m Unterkante und 2,30 m Oberkante relativ zur jeweiligen Modell-FFB; im PH etwa 0,20 m und 2,40 m. Eingangstüren und große Balkon-/Terrassenzugänge beginnen bei 0,00 m. Kleine Nordfenster sind einzeln mit höheren Unterkanten berücksichtigt: EG Öffnung 03 / OG Öffnung 07 etwa 1,20 m; PH Öffnung 03 etwa 1,50 m und Öffnung 06 etwa 1,20 m. Maße sind grafisch aus der Ansicht 1:100 auf 5 cm gerundet, nicht aus eingetragenen Maßketten entnommen. Modell-FFB und Geschosshöhen bleiben unverändert.
 
 **Verbleibende Grenzen:** Nord-EG Öffnung 02 aus dem neueren Grundriss lässt sich nicht eindeutig der älteren Ansicht zuordnen; sie bleibt mit den bisherigen vertikalen Annahmen erhalten. Bei mehreren schmalen Penthausöffnungen verdeckt die Terrassenbrüstung die Unterkante; dort wurde nur die sichtbare Oberkante angepasst und die bisherige Unterkante vorläufig beibehalten. Eine Ableitung nicht sichtbarer Maße wird nicht behauptet. Profilabmessungen, Querteilungen und Absturzsicherungsdetails sind weiterhin vereinfacht. Die Farbgebung bleibt dezent; der 0,50-m-Dachüberstand bleibt unverändert.
+
+## Aktuell: WA12-Fenstervorschlag und Freianlagenentwurf
+
+Nutzervorgabe: raumgerechte Fenster für WA12 im geradlinigen, einheitlichen Stil von WA14 und ein einfacher Freianlagenentwurf. Die folgenden Elemente sind ausdrücklich **Vorschläge**, keine nachträglich behaupteten Originalplanangaben.
+
+40 neue WA12-Öffnungen wurden angelegt: EG 9, OG 18, PH 13. Zusammen mit dem vorhandenen Hauseingang hat WA12 41 Öffnungen. Alle 73 WA14-Öffnungen bleiben unverändert. Geschosskonturen, Lage, Höhen, Balkone, Stellplätze, Garagen, Dachüberstände und LoD2-Umgebung bleiben unverändert. Die notwendigen Öffnungen einschließlich Stürzen sind geometrisch in den WA12-Außenwänden ausgespart.
+
+Wiederkehrende Breiten: 1,09 m für stehende Wohn-/Schlafraumfenster; 0,74 m für kleinere, meist hochliegende Öffnungen; 2,40 / 2,99 m für breite Wohnraumverglasungen und Terrassen-/Balkontüren. Oberkanten: EG/OG 2,30 m, PH 2,40 m relativ zur vorläufigen FFB. Normale Unterkante 0,15 m, Balkon-/Terrassentüren 0,00 m, hochliegende Fenster 1,20 m. Passende Fensterachsen sind zwischen EG, OG und PH direkt übereinander geführt; im Übrigen hat die einzelne Raumnutzung Vorrang vor einem durchgehenden Raster.
+
+Raumbezug: Küche, Bettstellwände, Sanitärzonen und Trennwände wurden auf den drei Grundrissen visuell geprüft. Die Wohnung 2 erhält beide gezeichneten Balkonzugänge; Wohnung 3 und 4 erhalten ihre eigenen Zugänge. Beide Penthousewohnungen erhalten je einen Dachterrassenzugang außerhalb der Küchenzeilen. Das innenliegende Bad von Wohnung 3 und das innenliegende WC von Wohnung 7 erhalten keine erfundenen Außenfenster. Die kleine rechte PH-Öffnung 07 gehört zum Abstellraum von Wohnung 7. Treppen- und Technikfenster bleiben mit Fachplanung und Treppenschnitt abzustimmen. Ein rechnerischer Belichtungs- oder Lüftungsnachweis wurde nicht durchgeführt. Absturzsicherungs- und Fensterteilungsdetails sind noch festzulegen.
+
+`WA12_Fensterkonzept.pdf` zeigt alle Vorschläge auf den drei Grundrissen mit Raumnamen und Abmessungen. Die vollständige bearbeitbare Öffnungsliste liegt in `daten/WA12_fenstervorschlag.json`.
+
+Freianlagen: neun niedrige Pflanzbeetflächen, drei kleinkronige Laubbäume (Darstellungshöhe ca. 4,20 m), 55 schematische Sträucher und ein Sitzplatz mit Bank wurden in freien Teilflächen vorgeschlagen. Vorhandene Gebäude, überdeckte Stellplätze, Beläge, Terrassen, Fahrbahn und Gewässer werden ausgespart; Bäume stehen mit Abstand zum Gebäude. Die Arten sind offen. Ausstattung für Spielplatz, Fahrräder und Müll sowie Leitungs- und Entwässerungsplanung sind nicht abschließend bearbeitet. Der einfache Lageplan `Freianlagen_Entwurf.pdf` ist bei 100-%-Ausdruck auf A3 im Maßstab 1:400. Die Freianlagendaten liegen in `daten/freianlagen_entwurf.json` und werden auch im GLB dargestellt.

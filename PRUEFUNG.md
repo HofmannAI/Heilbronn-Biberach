@@ -55,3 +55,9 @@ Auch die aktuelle Farbversion wurde im lokalen Chromium-Viewer erneut geladen: D
 Die spätere Nutzervorgabe wurde umgesetzt: 72 WA14-Öffnungen mit aktualisierten vertikalen Maßen. Automatisch verglichen: alle 74 horizontalen Öffnungslagen und Breiten identisch; alle nicht zur WA14-Außenwand-/Öffnungsgeometrie gehörenden Meshes unverändert. Das umfasst WA12, Dachüberstände, Balkonplatten und Geländer, Freianlagen und LoD2-Umgebung. Die vertikalen Öffnungen werden tatsächlich aus den Wänden ausgespart. Herkunft und offene Unterkanten: `fensteransichten_pruefung.json`. Frühere Prüfvermerke zur unveränderten Fenstergeometrie beziehen sich auf die vorausgehende Farbkorrektur.
 
 Finale GLB erneut in Chromium geladen; Projektansicht, WA14-Süd-/Terrassenseite und Eingangs-/Nordseite geprüft. Vollbild, Drehen, Zoomen und mobiler Viewport erfolgreich; keine JavaScript-Fehler oder externen Ladeanfragen.
+
+## Aktueller WA12- und Freianlagenentwurf
+
+40 neue WA12-Öffnungen auf den Außenkanten der drei Geschosskonturen geprüft; Raumzuordnung und Küchen-/Bett-/Sanitärbereiche auf den mit Markierungen versehenen Grundrissen visuell geprüft. Sämtliche 73 WA14-Öffnungen sind im direkten Datenvergleich unverändert; sämtliche bisherigen Meshes außer den nun geöffneten WA12-Außenwänden behalten ihre Geometrie. Neue Freianlagen wurden aus Restflächen außerhalb der vorhandenen Gebäude, Beläge, Stellplätze, Fahrbahn und Gewässer abgeleitet. Prüfwerte: `WA12_entwurf_pruefung.json`. Die mitgelieferten Konzept-PDFs wurden gerendert und visuell auf Lesbarkeit kontrolliert. Dies ist ein Gestaltungsvorschlag ohne rechnerischen Belichtungs- oder Fachplanungsnachweis.
+
+Die finale GLB mit 672 Meshes wurde im lokalen Viewer erneut geladen. WA12-Stirn- und Eingangsseite sowie Draufsicht der Freianlagen wurden visuell geprüft. Drehen, Zoomen, Vollbild und mobiler Viewport erfolgreich; keine JavaScript-Fehler oder externen Ladeanfragen.

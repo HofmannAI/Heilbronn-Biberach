@@ -1,0 +1,20 @@
+{
+  "proposed_new_openings": 40,
+  "WA12_openings_with_existing_entry": 41,
+  "WA14_73_openings_unchanged": true,
+  "existing_other_meshes_unchanged": 515,
+  "proposals_by_floor": {
+    "EG": 9,
+    "OG": 18,
+    "PH": 13
+  },
+  "landscape": {
+    "beds": 9,
+    "trees": 3,
+    "shrubs": 55,
+    "seating": 1
+  },
+  "all_proposed_window_segments_on_source_facade": true,
+  "drawings_visually_reviewed": true,
+  "daylight_calculation_performed": false
+}
